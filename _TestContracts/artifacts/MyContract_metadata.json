@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "double",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"_TestContracts/SimplyContract.sol": "MyContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"_TestContracts/SimplyContract.sol": {
+			"keccak256": "0x4c4a54eef69cbecb20b1ff32a0596fa7393d81f102f44f744354878d609a9c56",
+			"urls": [
+				"bzz-raw://c2a86b57d3d2ec681d34a39d8f5e0b0d737e0de5308f2b9542dc9eddaa5c29f4",
+				"dweb:/ipfs/QmVkh7B2eaXKy2hsX5HNUKqfeuQ8VDi4USAt53QENg2gPZ"
+			]
+		}
+	},
+	"version": 1
+}
