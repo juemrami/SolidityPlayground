@@ -19,7 +19,8 @@ contract Lottery{
     //the smart contract to recieve payments
     receive() external payable{
         require(!isAddressEntered[msg.sender], "Only 1 Entry per Person");
-        require (msg.value == 1 ether, "The Fee is exactly 1 (one) ether, no more no less");
+        require (msg.value == 1 ether,
+        "The Fee is exactly 1 (one) ether, no more no less");
         isAddressEntered[msg.sender] = true;
     }
 
